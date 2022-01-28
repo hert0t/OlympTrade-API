@@ -6,7 +6,7 @@
 - BET BUY/SELL
 ```PY
 from lib import Client
-client = Client()
+client = Client("sessionid")
 status = client.getBet(status="up",
               pair="EURUSD",
               amount="1",
@@ -18,3 +18,6 @@ print(status)
 # AMOUNT: amount bet.
 # DURATION: duration bet (in second).
 ```
+
+## BINOMO ##
+https://github.com/hert0t/Binomo-API
